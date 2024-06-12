@@ -175,11 +175,11 @@ class _CheckoutPageState extends State<CheckoutPage> {
                                       item.name,
                                       style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                                     ),
-                                    Text('₹${item.price} x ${item.quantity}'),
+                                    Text('₹${convertprice(item.price)} x ${item.quantity}'),
                                   ],
                                 ),
                               ),
-                              Text('₹${item.price * item.quantity}'),
+                              Text('₹${convertprice(item.price) * item.quantity}'),
                             ],
                           ),
                         );
@@ -196,7 +196,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
                             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                           ),
                           Text(
-                            '₹${widget.total}',
+                            '₹${convertprice(widget.total)}',
                             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.orange),
                           ),
                         ],
@@ -277,5 +277,11 @@ class _CheckoutPageState extends State<CheckoutPage> {
         ),
       ),
     );
+  }
+  int convertprice(double dollar) {
+    int indianRupees;
+    double newAmt = dollar * 83.62;
+    indianRupees = newAmt.toInt();
+    return indianRupees.toInt();
   }
 }

@@ -25,8 +25,31 @@ Sorting Options: Sort products based on price (low to high, high to low) or alph
 
 ## Tech Stack
 
-Client:Flutter,dart
-Server:Firebase,Fake Store API
+Frontend: Flutter, Dart
+Backend: Firebase Firestore
+Networking: HTTP package
+State Management: Stateful Widgets
+Local Storage: SharedPreferences
+
+## Routes/Links
+
+Main Routes:
+Home Screen: The landing page displaying categories.
+    Path: /
+    Widget: HomeScreen
+Category Screen: Displays products in a selected category.
+    Path: /category/:categoryName
+    Widget: CategoryScreen
+    Parameters: categoryName (String)
+Product Details: Displays detailed information about a selected product.
+    Path: /product/:productId
+    Widget: ProductDetailsScreen
+    Parameters: productId (int)
+Shopping Cart: Displays items in the cart.
+    Path: /cart
+    Widget: ShoppingCart
+
+
 
 Code:
 
@@ -82,34 +105,33 @@ Fetch Product:
 
 ScreenShots:
 
-![Login Screen](assets/images/login.jpg)
-Home Screen:
+Login Screen:
+<img src=assets/images/login.jpg width=40% height=40%>
 
-![Home Screen](assets/images/Home.jpg)
-![Login Screen](assets/images/homescreen.jpg)
+Home Screen:
+<img src=assets/images/Home.jpg width=40% height=40%>
+<img src=assets/images/homescreen.jpg width=40% height=40%>
 
 All Category Screen:
+<img src=assets/images/all.jpg width=40% height=40%>
 
-![Login Screen](assets/images/all.jpg)
+Electronic Screen:
+<img src=assets/images/elec.jpg width=40% height=40%>
 
-Electronic:
-![Login Screen](assets/images/elec.jpg)
+Jewelery Screen:
+<img src=assets/images/jel.jpg width=40% height=40%>
 
-Jewelery:
-![Login Screen](assets/images/jel.jpg)
+Men's clothing Screen:
+<img src=assets/images/men.jpg width=40% height=40%>
 
-Men's clothing:
-![Login Screen](assets/images/men.jpg)
-<img src=assets/images/men.jpg width=50% height=50%>
-Women's clothing:
-![Login Screen](assets/images/women.jpg)
+Women's clothing Screen:
+<img src=assets/images/women.jpg width=40% height=40%>
 
-Cart:
-![Login Screen](assets/images/cart.jpg)
+Cart Screen:
+<img src=assets/images/cart.jpg width=40% height=40%>
 
-Checkout:
-![Login Screen](assets/images/checkout.jpg)
+Checkout Screen:
+<img src=assets/images/checkout.jpg width=40% height=40%>
 
 RazorPay Payment Screen:
-![Login Screen](assets/images/razorpay payment.jpg)
-
+<img src=assets/images/razorpay payment.jpg width=40% height=40%>

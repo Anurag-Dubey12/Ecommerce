@@ -32,18 +32,17 @@ State Management: Stateful Widgets
 Local Storage: SharedPreferences
 
 ## Routes/Links
-
-Main Routes:
-Home Screen: The landing page displaying categories.
-    Path: /
-    Widget: HomeScreen
-Category Screen: Displays products in a selected category.
-    Path: /
-    Widget: CategoryScreen
-    Parameters: categoryName (String)
-Shopping Cart: Displays items in the cart.
-    Path: /
-    Widget: ShoppingCart
+    Main Routes:
+        Home Screen: The landing page displaying categories.
+        Path: /
+        Widget: HomeScreen
+    Category Screen: Displays products in a selected category.
+        Path: /
+        Widget: CategoryScreen
+        Parameters: categoryName (String)
+    Shopping Cart: Displays items in the cart.
+        Path: /
+        Widget: ShoppingCart
 
 ##Login Details:
     

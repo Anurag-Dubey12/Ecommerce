@@ -78,7 +78,9 @@ Fetch Product:
       });
     }}
 
-ScreenShots:
-                
+## Screenshots
 
-    ![Login Screen](assets/images/login.jpg)
+ScreenShots:
+
+![Login Screen](assets/images/login.jpg)
+

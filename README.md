@@ -46,7 +46,8 @@ Shopping Cart: Displays items in the cart.
     Widget: ShoppingCart
 
 ##Login Details:
-    Username:mor_2314
+    
+    Username: mor_2314
     Password: 83r5^_
 
 Code:

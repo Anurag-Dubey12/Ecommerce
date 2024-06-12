@@ -38,15 +38,11 @@ Home Screen: The landing page displaying categories.
     Path: /
     Widget: HomeScreen
 Category Screen: Displays products in a selected category.
-    Path: /category/:categoryName
+    Path: /
     Widget: CategoryScreen
     Parameters: categoryName (String)
-Product Details: Displays detailed information about a selected product.
-    Path: /product/:productId
-    Widget: ProductDetailsScreen
-    Parameters: productId (int)
 Shopping Cart: Displays items in the cart.
-    Path: /cart
+    Path: /
     Widget: ShoppingCart
 
 

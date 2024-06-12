@@ -1,3 +1,4 @@
+![Logo](img.png)
 The E-Commerce Application is a comprehensive online shopping platform designed to provide users with a seamless and engaging shopping experience. Built with Flutter, this application leverages the Fake Store API to fetch and display a variety of products across different categories. The app includes features such as product search, sorting, filtering, and a fully functional shopping cart integrated with Firebase for user-specific data storage.
 
 

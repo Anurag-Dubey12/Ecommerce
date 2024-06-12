@@ -156,6 +156,7 @@ class home extends State<Homescreen>{
             ),
             SizedBox(height: 30),
             Container(
+
               margin: EdgeInsets.symmetric(horizontal:10),
               width: double.infinity,
               child: SingleChildScrollView(

@@ -186,7 +186,7 @@
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    '₹$total',
+                    '₹${convertprice(total)}',
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.orange),
                   ),
                 ],

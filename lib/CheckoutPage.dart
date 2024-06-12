@@ -61,7 +61,6 @@ class _CheckoutPageState extends State<CheckoutPage> {
       }
     } catch (e) {
       print('Error placing order: $e');
-      // Handle error
     }
   }
 
@@ -213,27 +212,51 @@ class _CheckoutPageState extends State<CheckoutPage> {
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 16),
-            TextField(
+            TextFormField(
               decoration: InputDecoration(
                 labelText: 'Full Name',
                 border: OutlineInputBorder(),
               ),
+                validator: (value){
+                  if(value!.isEmpty ){
+                    return 'Please Enter Name';
+                  }
+                  else{
+                    return null;
+                  }
+                },
             ),
             SizedBox(height: 16),
-            TextField(
+            TextFormField(
               decoration: InputDecoration(
                 labelText: 'Address',
                 border: OutlineInputBorder(),
               ),
               maxLines: 3,
+              validator: (value){
+                if(value!.isEmpty ){
+                  return 'Please Enter Address';
+                }
+                else{
+                  return null;
+                }
+              },
             ),
             SizedBox(height: 16),
-            TextField(
+            TextFormField(
               decoration: InputDecoration(
                 labelText: 'Phone Number',
                 border: OutlineInputBorder(),
               ),
               keyboardType: TextInputType.phone,
+              validator: (value){
+                if(value!.isEmpty || value.length < 10  ){
+                  return 'Please Enter Valid Phone Number';
+                }
+                else{
+                  return null;
+                }
+              },
             ),
             SizedBox(height: 24),
             Center(

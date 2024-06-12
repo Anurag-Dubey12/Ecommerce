@@ -16,7 +16,12 @@ class CartItemWidget extends StatelessWidget {
     required this.onIncreaseQuantity,
     required this.onDecreaseQuantity,
   }) : super(key: key);
-
+  int convertprice(double dollar) {
+    int indianRupees;
+    double newAmt = dollar * 83.62;
+    indianRupees = newAmt.toInt();
+    return indianRupees.toInt();
+  }
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -42,7 +47,7 @@ class CartItemWidget extends StatelessWidget {
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 ),
                 Text(
-                  '₹${item.price}',
+                  '₹${convertprice(item.price)}',
                   style: TextStyle(fontSize: 16, color: Colors.grey),
                 ),
               ],

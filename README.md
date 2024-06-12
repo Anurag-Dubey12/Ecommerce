@@ -82,5 +82,5 @@ Fetch Product:
 
 ScreenShots:
 
-![Login Screen](assets/images/login.jpg width="300" height="200")
+![Login Screen](assets/images/login.jpg width="200" height="100")
 

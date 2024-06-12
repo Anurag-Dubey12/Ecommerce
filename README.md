@@ -100,7 +100,7 @@ Jewelery:
 
 Men's clothing:
 ![Login Screen](assets/images/men.jpg)
-
+<img src=assets/images/men.jpg width=50% height=50%>
 Women's clothing:
 ![Login Screen](assets/images/women.jpg)
 

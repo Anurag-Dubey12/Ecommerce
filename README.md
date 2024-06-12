@@ -110,29 +110,38 @@ Login Screen:
 <img src=assets/images/login.jpg width=40% height=40%>
 
 Home Screen:
+
 <img src=assets/images/Home.jpg width=40% height=40%>
 <img src=assets/images/homescreen.jpg width=40% height=40%>
 
 All Category Screen:
+
 <img src=assets/images/all.jpg width=40% height=40%>
 
 Electronic Screen:
+
 <img src=assets/images/elec.jpg width=40% height=40%>
 
 Jewelery Screen:
+
 <img src=assets/images/jel.jpg width=40% height=40%>
 
 Men's clothing Screen:
+
 <img src=assets/images/men.jpg width=40% height=40%>
 
 Women's clothing Screen:
+
 <img src=assets/images/women.jpg width=40% height=40%>
 
 Cart Screen:
+
 <img src=assets/images/cart.jpg width=40% height=40%>
 
 Checkout Screen:
+
 <img src=assets/images/checkout.jpg width=40% height=40%>
 
 RazorPay Payment Screen:
+
 <img src=assets/images/razorpay payment.jpg width=40% height=40%>

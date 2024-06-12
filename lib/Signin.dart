@@ -40,8 +40,8 @@ class UserAuth extends State<Signin>{
         _errorMessage='Invalid Credential';
       });
     }
-
   }
+
   Future<void> _saveUserDetailsToFirestore(String token) async {
     final FirebaseFirestore firestore = FirebaseFirestore.instance;
     await firestore.collection('EUsers').doc(token).set({

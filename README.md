@@ -82,5 +82,34 @@ Fetch Product:
 
 ScreenShots:
 
-![Login Screen](assets/images/login.jpg width="200" height="100")
+![Login Screen](assets/images/login.jpg)
+Home Screen:
+
+![Home Screen](assets/images/Home.jpg)
+![Login Screen](assets/images/homescreen.jpg)
+
+All Category Screen:
+
+![Login Screen](assets/images/all.jpg)
+
+Electronic:
+![Login Screen](assets/images/elec.jpg)
+
+Jewelery:
+![Login Screen](assets/images/jel.jpg)
+
+Men's clothing:
+![Login Screen](assets/images/men.jpg)
+
+Women's clothing:
+![Login Screen](assets/images/women.jpg)
+
+Cart:
+![Login Screen](assets/images/cart.jpg)
+
+Checkout:
+![Login Screen](assets/images/checkout.jpg)
+
+RazorPay Payment Screen:
+![Login Screen](assets/images/razorpay payment.jpg)
 

@@ -13,23 +13,31 @@ API Used in these Project: https://fakestoreapi.com/docs
 ## Features
 
 Key Features:
-1.Product Categories: Easily navigate through various categories like electronics, men's clothing, jewelry, and women's clothing to find desired items quickly.
-2.Search Functionality: Efficient search functionality allows users to find products by name or description, enhancing usability.
-Sorting Options: Sort products based on price (low to high, high to low) or alphabetically (A-Z, Z-A) to facilitate decision-making.
-3.Shopping Cart: Users can add items to their cart, review quantities, and remove items as needed. The cart dynamically updates total prices and quantities.
-4.Secure Payment: Integration with secure payment gateways ensures safe transactions for users.
-5.User Authentication: Secure user accounts and authentication mechanisms protect user data and provide personalized shopping experiences.
-4.Visual Appeal: Cool UI design with attractive visuals and intuitive navigation enhances user engagement and satisfaction.
-5.Real-time Updates: Receive notifications and updates on orders, promotions, and new arrivals to stay informed.
+
+1. Product Categories: Easily navigate through various categories like electronics, men's clothing, jewelry, and women's clothing to find desired items quickly.
+
+2. Search Functionality: Efficient search functionality allows users to find products by name or description, enhancing usability.
+
+3. Sorting Options: Sort products based on price (low to high, high to low) or alphabetically (A-Z, Z-A) to facilitate decision-making.
+
+4. Shopping Cart: Users can add items to their cart, review quantities, and remove items as needed. The cart dynamically updates total prices and quantities.
+
+5. Secure Payment: Integration with secure payment gateways ensures safe transactions for users.
+
+6. User Authentication: Secure user accounts and authentication mechanisms protect user data and provide personalized shopping experiences.
+
+7. Visual Appeal: Cool UI design with attractive visuals and intuitive navigation enhances user engagement and satisfaction.
+
+8. Real-time Updates: Receive notifications and updates on orders, promotions, and new arrivals to stay informed.
 
 
 ## Tech Stack
 
-Frontend: Flutter, Dart
-Backend: Firebase Firestore
-Networking: HTTP package
-State Management: Stateful Widgets
-Local Storage: SharedPreferences
+    Frontend: Flutter, Dart
+    Backend: Firebase Firestore
+    Networking: HTTP package
+    State Management: Stateful Widgets
+    Local Storage: SharedPreferences
 
 ## Routes/Links
     Main Routes:
@@ -44,7 +52,7 @@ Local Storage: SharedPreferences
         Path: /
         Widget: ShoppingCart
 
-##Login Details:
+## Login Details:
     
     Username: mor_2314
     Password: 83r5^_

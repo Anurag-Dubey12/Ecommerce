@@ -144,4 +144,4 @@ Checkout Screen:
 
 RazorPay Payment Screen:
 
-<img src=assets/images/razorpay payment.jpg width=40% height=40%>
+<img src=assets/images/razorpay_payment.jpg width=40% height=40%>

@@ -145,3 +145,5 @@ Checkout Screen:
 RazorPay Payment Screen:
 
 <img src=assets/images/razorpay_payment.jpg width=40% height=40%>
+<img src=assets/images/paymentSucc.jpg.jpg width=40% height=40%>
+<img src=assets/images/sucesspop.jpg.jpg width=40% height=40%>
